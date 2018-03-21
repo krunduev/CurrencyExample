@@ -19,18 +19,28 @@ class ViewController: UIViewController {
     
     @IBAction func моюКнопкуНажали(_ sender: Any) {
         сколькоРазНажали += 1
-        мояНадпись.text = "Кнопку нажали \(сколькоРазНажали)"
-        
-        let url = "http://apilayer.net/api/live?access_key=94b773cf509c9990440ef849b10a0bf5&currencies=EUR,GBP,CAD,PLN&source=USD&format=1"
-        
+//        мояНадпись.text = "Кнопку нажали \(сколькоРазНажали)"
+//        мояНадпись.text = "Loading..."
 
-        Alamofire.request(url, method: .get, parameters: nil).validate().responseObject
+//        let url = "http://apilayer.net/api/live?access_key=94b773cf509c9990440ef849b10a0bf5&currencies=EUR,GBP,CAD,PLN&source=USD&format=1"
+        let url = "http://apilayer.net/api/live"
+
+        
+        let params: Parameters = [
+            "access_key":"94b773cf509c9990440ef849b10a0bf5",
+            "currencies":"EUR,GBP,CAD,PLN",
+            "source":"USD",
+            "format":1
+        ]
+
+        Alamofire.request(url, method: .get, parameters: params).validate().responseObject
             { (response: DataResponse<CurrencyResponse>) in
             
                 switch response.result {
                 case .success:
                     if let getServerResponce = response.result.value {
                         print("\(getServerResponce.quotes?.USDEUR ?? 0.0)")
+                        self.мояНадпись.text = "\(getServerResponce.quotes?.USDEUR ?? 0.0)"
                     } else {
                         print("Nil?")
                     }
