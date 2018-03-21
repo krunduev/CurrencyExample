@@ -1,0 +1,6 @@
+framework module Pods_TestIForlya {
+  umbrella header "Pods-TestIForlya-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F40FEAD20629133008FDC03 /* CurrencyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F40FEAC20629133008FDC03 /* CurrencyResponse.swift */; };
+		4F696B1E205FC55900184B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696B1D205FC55900184B16 /* AppDelegate.swift */; };
+		4F696B20205FC55900184B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696B1F205FC55900184B16 /* ViewController.swift */; };
+		4F696B23205FC55900184B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F696B21205FC55900184B16 /* Main.storyboard */; };
+		4F696B26205FC55900184B16 /* TestIForlya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F696B24205FC55900184B16 /* TestIForlya.xcdatamodeld */; };
+		4F696B28205FC55900184B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F696B27205FC55900184B16 /* Assets.xcassets */; };
+		4F696B2B205FC55900184B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F696B29205FC55900184B16 /* LaunchScreen.storyboard */; };
+		4F696B36205FC55900184B16 /* TestIForlyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696B35205FC55900184B16 /* TestIForlyaTests.swift */; };
+		4F696B41205FC55900184B16 /* TestIForlyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696B40205FC55900184B16 /* TestIForlyaUITests.swift */; };
+		635345D8E4214DC4FC652041 /* Pods_TestIForlya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D1D30CF0683C01EC5DCE32 /* Pods_TestIForlya.framework */; };
+		B791E33BC98FF22E776B46B5 /* Pods_TestIForlyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC81E2FED6E7FFE691D2C5BF /* Pods_TestIForlyaUITests.framework */; };
+		F05A2EAFF5A46DD9756A33F8 /* Pods_TestIForlyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09075FD196EAC24B2E462A38 /* Pods_TestIForlyaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F696B32205FC55900184B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F696B12205FC55900184B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F696B19205FC55900184B16;
+			remoteInfo = TestIForlya;
+		};
+		4F696B3D205FC55900184B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F696B12205FC55900184B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F696B19205FC55900184B16;
+			remoteInfo = TestIForlya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0629E26A121186BC70D3B8D3 /* Pods-TestIForlyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIForlyaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestIForlyaTests/Pods-TestIForlyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09075FD196EAC24B2E462A38 /* Pods_TestIForlyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestIForlyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F77C39BC2EF4699F31B327B /* Pods-TestIForlyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIForlyaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestIForlyaUITests/Pods-TestIForlyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28D1D30CF0683C01EC5DCE32 /* Pods_TestIForlya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestIForlya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F40FEAC20629133008FDC03 /* CurrencyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyResponse.swift; sourceTree = "<group>"; };
+		4F696B1A205FC55900184B16 /* TestIForlya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIForlya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F696B1D205FC55900184B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F696B1F205FC55900184B16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F696B22205FC55900184B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F696B25205FC55900184B16 /* TestIForlya.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestIForlya.xcdatamodel; sourceTree = "<group>"; };
+		4F696B27205FC55900184B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F696B2A205FC55900184B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F696B2C205FC55900184B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F696B31205FC55900184B16 /* TestIForlyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIForlyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F696B35205FC55900184B16 /* TestIForlyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIForlyaTests.swift; sourceTree = "<group>"; };
+		4F696B37205FC55900184B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F696B3C205FC55900184B16 /* TestIForlyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIForlyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F696B40205FC55900184B16 /* TestIForlyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIForlyaUITests.swift; sourceTree = "<group>"; };
+		4F696B42205FC55900184B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD1566B31158AB2C4B24ACE /* Pods-TestIForlya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIForlya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestIForlya/Pods-TestIForlya.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED8D8694217C9FB345BA28F /* Pods-TestIForlyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIForlyaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestIForlyaUITests/Pods-TestIForlyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC81E2FED6E7FFE691D2C5BF /* Pods_TestIForlyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestIForlyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BD1409E785BFA87317550A /* Pods-TestIForlya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIForlya.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestIForlya/Pods-TestIForlya.release.xcconfig"; sourceTree = "<group>"; };
+		EC1242632CC71D40078701E4 /* Pods-TestIForlyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIForlyaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestIForlyaTests/Pods-TestIForlyaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F696B17205FC55900184B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635345D8E4214DC4FC652041 /* Pods_TestIForlya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F696B2E205FC55900184B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05A2EAFF5A46DD9756A33F8 /* Pods_TestIForlyaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F696B39205FC55900184B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B791E33BC98FF22E776B46B5 /* Pods_TestIForlyaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BBE0730D8DEF28F1915F287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28D1D30CF0683C01EC5DCE32 /* Pods_TestIForlya.framework */,
+				09075FD196EAC24B2E462A38 /* Pods_TestIForlyaTests.framework */,
+				DC81E2FED6E7FFE691D2C5BF /* Pods_TestIForlyaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F696B11205FC55900184B16 = {
+			isa = PBXGroup;
+			children = (
+				4F696B1C205FC55900184B16 /* TestIForlya */,
+				4F696B34205FC55900184B16 /* TestIForlyaTests */,
+				4F696B3F205FC55900184B16 /* TestIForlyaUITests */,
+				4F696B1B205FC55900184B16 /* Products */,
+				4F983A407A491E1E03A266A9 /* Pods */,
+				0BBE0730D8DEF28F1915F287 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F696B1B205FC55900184B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F696B1A205FC55900184B16 /* TestIForlya.app */,
+				4F696B31205FC55900184B16 /* TestIForlyaTests.xctest */,
+				4F696B3C205FC55900184B16 /* TestIForlyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F696B1C205FC55900184B16 /* TestIForlya */ = {
+			isa = PBXGroup;
+			children = (
+				4F696B50205FC58200184B16 /* Views */,
+				4F696B4F205FC57900184B16 /* Models */,
+				4F696B4E205FC56C00184B16 /* Controllers */,
+				4F696B1D205FC55900184B16 /* AppDelegate.swift */,
+				4F696B21205FC55900184B16 /* Main.storyboard */,
+				4F696B27205FC55900184B16 /* Assets.xcassets */,
+				4F696B29205FC55900184B16 /* LaunchScreen.storyboard */,
+				4F696B2C205FC55900184B16 /* Info.plist */,
+				4F696B24205FC55900184B16 /* TestIForlya.xcdatamodeld */,
+			);
+			path = TestIForlya;
+			sourceTree = "<group>";
+		};
+		4F696B34205FC55900184B16 /* TestIForlyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F696B35205FC55900184B16 /* TestIForlyaTests.swift */,
+				4F696B37205FC55900184B16 /* Info.plist */,
+			);
+			path = TestIForlyaTests;
+			sourceTree = "<group>";
+		};
+		4F696B3F205FC55900184B16 /* TestIForlyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F696B40205FC55900184B16 /* TestIForlyaUITests.swift */,
+				4F696B42205FC55900184B16 /* Info.plist */,
+			);
+			path = TestIForlyaUITests;
+			sourceTree = "<group>";
+		};
+		4F696B4E205FC56C00184B16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F696B1F205FC55900184B16 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F696B4F205FC57900184B16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F40FEAC20629133008FDC03 /* CurrencyResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F696B50205FC58200184B16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F983A407A491E1E03A266A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DD1566B31158AB2C4B24ACE /* Pods-TestIForlya.debug.xcconfig */,
+				E0BD1409E785BFA87317550A /* Pods-TestIForlya.release.xcconfig */,
+				0629E26A121186BC70D3B8D3 /* Pods-TestIForlyaTests.debug.xcconfig */,
+				EC1242632CC71D40078701E4 /* Pods-TestIForlyaTests.release.xcconfig */,
+				9ED8D8694217C9FB345BA28F /* Pods-TestIForlyaUITests.debug.xcconfig */,
+				0F77C39BC2EF4699F31B327B /* Pods-TestIForlyaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F696B19205FC55900184B16 /* TestIForlya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F696B45205FC55900184B16 /* Build configuration list for PBXNativeTarget "TestIForlya" */;
+			buildPhases = (
+				B7547BC05C11E80C9D7F1D03 /* [CP] Check Pods Manifest.lock */,
+				4F696B16205FC55900184B16 /* Sources */,
+				4F696B17205FC55900184B16 /* Frameworks */,
+				4F696B18205FC55900184B16 /* Resources */,
+				2FDB017839B68AEFA2B7CE70 /* [CP] Embed Pods Frameworks */,
+				B3D7032FD4671E84DAD8DB9D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestIForlya;
+			productName = TestIForlya;
+			productReference = 4F696B1A205FC55900184B16 /* TestIForlya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F696B30205FC55900184B16 /* TestIForlyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F696B48205FC55900184B16 /* Build configuration list for PBXNativeTarget "TestIForlyaTests" */;
+			buildPhases = (
+				866D7C54380769E393E2BE3A /* [CP] Check Pods Manifest.lock */,
+				4F696B2D205FC55900184B16 /* Sources */,
+				4F696B2E205FC55900184B16 /* Frameworks */,
+				4F696B2F205FC55900184B16 /* Resources */,
+				560A72FCB77BC0CE1E9F3AA5 /* [CP] Embed Pods Frameworks */,
+				E00AB1E08400A08D8462C13D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F696B33205FC55900184B16 /* PBXTargetDependency */,
+			);
+			name = TestIForlyaTests;
+			productName = TestIForlyaTests;
+			productReference = 4F696B31205FC55900184B16 /* TestIForlyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F696B3B205FC55900184B16 /* TestIForlyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F696B4B205FC55900184B16 /* Build configuration list for PBXNativeTarget "TestIForlyaUITests" */;
+			buildPhases = (
+				BA93EAF45D8DBB520B53BB30 /* [CP] Check Pods Manifest.lock */,
+				4F696B38205FC55900184B16 /* Sources */,
+				4F696B39205FC55900184B16 /* Frameworks */,
+				4F696B3A205FC55900184B16 /* Resources */,
+				24D1D22A8D33A91119C023FC /* [CP] Embed Pods Frameworks */,
+				CEB8B2596C7CC2B57D09FF02 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F696B3E205FC55900184B16 /* PBXTargetDependency */,
+			);
+			name = TestIForlyaUITests;
+			productName = TestIForlyaUITests;
+			productReference = 4F696B3C205FC55900184B16 /* TestIForlyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F696B12205FC55900184B16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kostyantyn Runduyev";
+				TargetAttributes = {
+					4F696B19205FC55900184B16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4F696B30205FC55900184B16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F696B19205FC55900184B16;
+					};
+					4F696B3B205FC55900184B16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F696B19205FC55900184B16;
+					};
+				};
+			};
+			buildConfigurationList = 4F696B15205FC55900184B16 /* Build configuration list for PBXProject "TestIForlya" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F696B11205FC55900184B16;
+			productRefGroup = 4F696B1B205FC55900184B16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F696B19205FC55900184B16 /* TestIForlya */,
+				4F696B30205FC55900184B16 /* TestIForlyaTests */,
+				4F696B3B205FC55900184B16 /* TestIForlyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F696B18205FC55900184B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F696B2B205FC55900184B16 /* LaunchScreen.storyboard in Resources */,
+				4F696B28205FC55900184B16 /* Assets.xcassets in Resources */,
+				4F696B23205FC55900184B16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F696B2F205FC55900184B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F696B3A205FC55900184B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D1D22A8D33A91119C023FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIForlyaUITests/Pods-TestIForlyaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FDB017839B68AEFA2B7CE70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestIForlya/Pods-TestIForlya-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIForlya/Pods-TestIForlya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		560A72FCB77BC0CE1E9F3AA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIForlyaTests/Pods-TestIForlyaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866D7C54380769E393E2BE3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestIForlyaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D7032FD4671E84DAD8DB9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIForlya/Pods-TestIForlya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7547BC05C11E80C9D7F1D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestIForlya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA93EAF45D8DBB520B53BB30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestIForlyaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB8B2596C7CC2B57D09FF02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIForlyaUITests/Pods-TestIForlyaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00AB1E08400A08D8462C13D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIForlyaTests/Pods-TestIForlyaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F696B16205FC55900184B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F696B20205FC55900184B16 /* ViewController.swift in Sources */,
+				4F696B26205FC55900184B16 /* TestIForlya.xcdatamodeld in Sources */,
+				4F40FEAD20629133008FDC03 /* CurrencyResponse.swift in Sources */,
+				4F696B1E205FC55900184B16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F696B2D205FC55900184B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F696B36205FC55900184B16 /* TestIForlyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F696B38205FC55900184B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F696B41205FC55900184B16 /* TestIForlyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F696B33205FC55900184B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F696B19205FC55900184B16 /* TestIForlya */;
+			targetProxy = 4F696B32205FC55900184B16 /* PBXContainerItemProxy */;
+		};
+		4F696B3E205FC55900184B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F696B19205FC55900184B16 /* TestIForlya */;
+			targetProxy = 4F696B3D205FC55900184B16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F696B21205FC55900184B16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F696B22205FC55900184B16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F696B29205FC55900184B16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F696B2A205FC55900184B16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F696B43205FC55900184B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F696B44205FC55900184B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F696B46205FC55900184B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD1566B31158AB2C4B24ACE /* Pods-TestIForlya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMG5752JL7;
+				INFOPLIST_FILE = TestIForlya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.curiousit.TestIForlya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F696B47205FC55900184B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BD1409E785BFA87317550A /* Pods-TestIForlya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMG5752JL7;
+				INFOPLIST_FILE = TestIForlya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.curiousit.TestIForlya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F696B49205FC55900184B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0629E26A121186BC70D3B8D3 /* Pods-TestIForlyaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMG5752JL7;
+				INFOPLIST_FILE = TestIForlyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.curiousit.TestIForlyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestIForlya.app/TestIForlya";
+			};
+			name = Debug;
+		};
+		4F696B4A205FC55900184B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1242632CC71D40078701E4 /* Pods-TestIForlyaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMG5752JL7;
+				INFOPLIST_FILE = TestIForlyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.curiousit.TestIForlyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestIForlya.app/TestIForlya";
+			};
+			name = Release;
+		};
+		4F696B4C205FC55900184B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED8D8694217C9FB345BA28F /* Pods-TestIForlyaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMG5752JL7;
+				INFOPLIST_FILE = TestIForlyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.curiousit.TestIForlyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestIForlya;
+			};
+			name = Debug;
+		};
+		4F696B4D205FC55900184B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F77C39BC2EF4699F31B327B /* Pods-TestIForlyaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMG5752JL7;
+				INFOPLIST_FILE = TestIForlyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.curiousit.TestIForlyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestIForlya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F696B15205FC55900184B16 /* Build configuration list for PBXProject "TestIForlya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F696B43205FC55900184B16 /* Debug */,
+				4F696B44205FC55900184B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F696B45205FC55900184B16 /* Build configuration list for PBXNativeTarget "TestIForlya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F696B46205FC55900184B16 /* Debug */,
+				4F696B47205FC55900184B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F696B48205FC55900184B16 /* Build configuration list for PBXNativeTarget "TestIForlyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F696B49205FC55900184B16 /* Debug */,
+				4F696B4A205FC55900184B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F696B4B205FC55900184B16 /* Build configuration list for PBXNativeTarget "TestIForlyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F696B4C205FC55900184B16 /* Debug */,
+				4F696B4D205FC55900184B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F696B24205FC55900184B16 /* TestIForlya.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F696B25205FC55900184B16 /* TestIForlya.xcdatamodel */,
+			);
+			currentVersion = 4F696B25205FC55900184B16 /* TestIForlya.xcdatamodel */;
+			path = TestIForlya.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F696B12205FC55900184B16 /* Project object */;
+}
